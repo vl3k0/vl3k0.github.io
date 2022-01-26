@@ -10,9 +10,9 @@
   
   
   
-  <link rel="prev" href="https://vl3k0.github.io/2022/migrate-to-hugo-from-bootstrap/" />
-  <link rel="next" href="https://vl3k0.github.io/2022/how-to-push-project-to-github/" />
-  <link rel="canonical" href="https://vl3k0.github.io/2022/tulisan-tes/" />
+  <link rel="prev" href="https://vl3k0.github.io/2022/tulisan-tes/" />
+  
+  <link rel="canonical" href="https://vl3k0.github.io/2022/how-to-push-project-to-github/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -23,10 +23,10 @@
   <title>
        
        
-           Tulisan Tes | vl3k0
+           How to Push Project to Github | vl3k0
        
   </title>
-  <meta name="title" content="Tulisan Tes | vl3k0">
+  <meta name="title" content="How to Push Project to Github | vl3k0">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -34,17 +34,20 @@
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tulisan Tes"/>
-<meta name="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae mi a justo laoreet venenatis in sed eros. Aliquam erat volutpat. Etiam in felis fermentum, auctor lacus vitae, pharetra mi. Sed tellus elit, tempus eu malesuada vitae, venenatis in metus. Mauris sit amet erat in orci luctus dapibus nec quis libero. Pellentesque scelerisque est elit, vitae convallis urna blandit ut. Duis vitae arcu vehicula, sollicitudin neque ut, posuere mi. Aenean vulputate in felis et molestie."/>
+<meta name="twitter:title" content="How to Push Project to Github"/>
+<meta name="twitter:description" content="1. Create a SSH key $ ssh-keygen $ cd ./.ssh $ ps -e | grep [s]sh-agent $ cd .. $ ssh-add ~/.ssh/your_id $ ssh-add -l $ cat ~/.ssh/your_id.pub then, copy the whole code
+2. Add SSH key to your github Account Open Settings &gt; SSH and GPG Keys
+3. Test the connectivity ssh -T git@github.com
+4. Clone one of your Github Repository Make sure to use SSH when clone. For example : $ git clone git@github."/>
 
   <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Tulisan Tes",
+  "headline": "How to Push Project to Github",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https:\/\/vl3k0.github.io\/2022\/tulisan-tes\/"
+    "@id": "https:\/\/vl3k0.github.io\/2022\/how-to-push-project-to-github\/"
   },
   "image": {
     "@type": "ImageObject",
@@ -54,10 +57,10 @@
   },
   "genre": "posts",
   
-  "wordcount":  272 ,
-  "url": "https:\/\/vl3k0.github.io\/2022\/tulisan-tes\/",
-  "datePublished": "2022-01-25T16:11:52\u002b08:00",
-  "dateModified": "2022-01-25T16:11:52\u002b08:00",
+  "wordcount":  122 ,
+  "url": "https:\/\/vl3k0.github.io\/2022\/how-to-push-project-to-github\/",
+  "datePublished": "2022-01-26T20:45:19\u002b08:00",
+  "dateModified": "2022-01-26T20:45:19\u002b08:00",
   
   "publisher": {
     "@type": "Organization",
@@ -129,20 +132,21 @@
       		
 <article class="post-warp">
     <header class="post-header">
-        <h1 class="post-title">Tulisan Tes</h1>
+        <h1 class="post-title">How to Push Project to Github</h1>
         <div class="post-meta">
             Written by <a href="https://vl3k0.github.io/" rel="author">vl3k0</a> with ♥ 
                 <span class="post-time">
-                    on <time datetime=2022-01-25 >25 January 2022</time>
+                    on <time datetime=2022-01-26 >26 January 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://vl3k0.github.io/categories/tess/"> Tess </a>
+                        <a href="https://vl3k0.github.io/categories/git/"> Git </a>
+                        <a href="https://vl3k0.github.io/categories/linux/"> Linux </a>
                         
                 </span>
                 <i class="iconfont icon-timer"></i>
-                2 min
+                1 min
         </div>
     </header>
     <div class="post-content">
@@ -161,9 +165,31 @@
           
           
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae mi a justo laoreet venenatis in sed eros. Aliquam erat volutpat. Etiam in felis fermentum, auctor lacus vitae, pharetra mi. Sed tellus elit, tempus eu malesuada vitae, venenatis in metus. Mauris sit amet erat in orci luctus dapibus nec quis libero. Pellentesque scelerisque est elit, vitae convallis urna blandit ut. Duis vitae arcu vehicula, sollicitudin neque ut, posuere mi. Aenean vulputate in felis et molestie. Pellentesque at metus eu est tincidunt tincidunt at vel tortor. Vestibulum augue metus, ornare eu felis et, interdum porta lorem. Ut placerat odio eu consequat imperdiet. Etiam fringilla quis urna ac suscipit.</p>
-<p>Sed accumsan vel orci quis tempus. Phasellus porttitor elit urna, sed ultrices lectus lacinia at. Donec nec pulvinar enim. Cras molestie mauris dapibus quam placerat, in consectetur urna tincidunt. Aliquam maximus mattis dui, id mattis nulla imperdiet a. Cras egestas semper magna, vitae sollicitudin diam sagittis ut. Vestibulum sit amet mauris eget urna accumsan porta quis ut sem. Quisque vel efficitur augue. Praesent facilisis, elit eget facilisis accumsan, nisl arcu finibus elit, vel fermentum ante leo eget augue. Vestibulum lacinia fringilla dolor ac fringilla. Praesent blandit molestie volutpat.</p>
-<p>Morbi nec dignissim quam. In hac habitasse platea dictumst. Aliquam vel blandit lorem. Donec justo massa, lobortis porttitor venenatis quis, sodales rutrum justo. Nullam molestie, nunc vitae vulputate aliquam, nisl mi tempor neque, non interdum mauris enim dignissim justo. Morbi sagittis lectus purus, quis feugiat nibh pellentesque ac. Nulla vitae consequat diam, eget interdum risus. Curabitur ullamcorper, neque eu pulvinar rhoncus, elit metus pretium neque, feugiat ultricies sapien erat nec est. Morbi dignissim maximus massa nec rutrum.</p>
+          <h4 id="1-create-a-ssh-key">1. Create a SSH key</h4>
+<p>$ ssh-keygen <br>
+$ cd ./.ssh <br>
+$ ps -e | grep [s]sh-agent <br>
+$ cd .. <br>
+$ ssh-add ~/.ssh/your_id <br>
+$ ssh-add -l <br>
+$ cat ~/.ssh/your_id.pub <br>
+then, copy the whole code</p>
+<h4 id="2-add-ssh-key-to-your-github-account">2. Add SSH key to your github Account</h4>
+<p>Open Settings &gt; SSH and GPG Keys</p>
+<h4 id="3-test-the-connectivity">3. Test the connectivity</h4>
+<p>ssh -T <a href="mailto:git@github.com">git@github.com</a></p>
+<h4 id="4-clone-one-of-your-github-repository">4. Clone one of your Github Repository</h4>
+<p>Make sure to use SSH when clone. For example : <br>
+$ git clone <a href="mailto:git@github.com">git@github.com</a>:vl3k0/vl3k0.github.io.git</p>
+<h4 id="5-push-your-local-repository-to-github">5. Push your Local Repository to Github</h4>
+<p>$ cd ./your-local-repository <br>
+$ git init <br>
+$ git remote add origin <a href="mailto:git@github.com">git@github.com</a>/username/repository <br>
+$ git add . <br>
+$ git commit -m &ldquo;Your Commit Text&rdquo; <br>
+$ git pull <a href="mailto:git@github.com">git@github.com</a>/username/repository <br>
+$ git pull origin master <br>
+$ git push -u origin master &ndash;force</p>
 
     </div>
 
@@ -177,7 +203,7 @@
            
             <p class="copyright-item">
                     <span>Words:</span>
-                   <span>272</span>
+                   <span>122</span>
             </p>
 
             <p class="copyright-item">
@@ -186,13 +212,13 @@
                 <span>
 
       
-        <a href="//twitter.com/share?url=https%3a%2f%2fvl3k0.github.io%2f2022%2ftulisan-tes%2f&amp;text=Tulisan%20Tes&amp;via=" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fvl3k0.github.io%2f2022%2fhow-to-push-project-to-github%2f&amp;text=How%20to%20Push%20Project%20to%20Github&amp;via=" target="_blank" title="Share on Twitter">
           <i class="iconfont icon-twitter"></i>
         </a>
         
       
       
-        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fvl3k0.github.io%2f2022%2ftulisan-tes%2f" target="_blank" title="Share on Facebook">
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fvl3k0.github.io%2f2022%2fhow-to-push-project-to-github%2f" target="_blank" title="Share on Facebook">
           <i class="iconfont icon-facebook"></i>
         </a>
         
@@ -200,7 +226,7 @@
       
       
       
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fvl3k0.github.io%2f2022%2ftulisan-tes%2f&amp;title=Tulisan%20Tes" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fvl3k0.github.io%2f2022%2fhow-to-push-project-to-github%2f&amp;title=How%20to%20Push%20Project%20to%20Github" target="_blank" title="Share on LinkedIn">
           <i class="iconfont icon-linkedin"></i>
         </a>
         
@@ -241,10 +267,8 @@
 
     <div class="post-nav">
         
-        <a href="https://vl3k0.github.io/2022/migrate-to-hugo-from-bootstrap/" class="prev" rel="prev" title="Migrate to Hugo From Bootstrap"><i class="iconfont icon-dajiantou"></i>&nbsp;Migrate to Hugo From Bootstrap</a>
+        <a href="https://vl3k0.github.io/2022/tulisan-tes/" class="prev" rel="prev" title="Tulisan Tes"><i class="iconfont icon-dajiantou"></i>&nbsp;Tulisan Tes</a>
          
-        
-        <a href="https://vl3k0.github.io/2022/how-to-push-project-to-github/" class="next" rel="next" title="How to Push Project to Github">How to Push Project to Github&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
         
     </div>
 

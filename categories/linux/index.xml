@@ -6,7 +6,19 @@
     <description>Recent content in Linux on vl3k0</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jan 2021 15:14:40 +0800</lastBuildDate><atom:link href="https://vl3k0.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jan 2022 20:45:19 +0800</lastBuildDate><atom:link href="https://vl3k0.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Push Project to Github</title>
+      <link>https://vl3k0.github.io/2022/how-to-push-project-to-github/</link>
+      <pubDate>Wed, 26 Jan 2022 20:45:19 +0800</pubDate>
+      
+      <guid>https://vl3k0.github.io/2022/how-to-push-project-to-github/</guid>
+      <description>1. Create a SSH key $ ssh-keygen $ cd ./.ssh $ ps -e | grep [s]sh-agent $ cd .. $ ssh-add ~/.ssh/your_id $ ssh-add -l $ cat ~/.ssh/your_id.pub then, copy the whole code
+2. Add SSH key to your github Account Open Settings &amp;gt; SSH and GPG Keys
+3. Test the connectivity ssh -T git@github.com
+4. Clone one of your Github Repository Make sure to use SSH when clone. For example : $ git clone git@github.</description>
+    </item>
+    
     <item>
       <title>Ngab</title>
       <link>https://vl3k0.github.io/2021/ngab/</link>
