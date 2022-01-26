@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tess on vl3k0</title>
+    <link>https://vl3k0.github.io/categories/tess/</link>
+    <description>Recent content in Tess on vl3k0</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jan 2022 16:11:52 +0800</lastBuildDate><atom:link href="https://vl3k0.github.io/categories/tess/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tulisan Tes</title>
+      <link>https://vl3k0.github.io/2022/tulisan-tes/</link>
+      <pubDate>Tue, 25 Jan 2022 16:11:52 +0800</pubDate>
+      
+      <guid>https://vl3k0.github.io/2022/tulisan-tes/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae mi a justo laoreet venenatis in sed eros. Aliquam erat volutpat. Etiam in felis fermentum, auctor lacus vitae, pharetra mi. Sed tellus elit, tempus eu malesuada vitae, venenatis in metus. Mauris sit amet erat in orci luctus dapibus nec quis libero. Pellentesque scelerisque est elit, vitae convallis urna blandit ut. Duis vitae arcu vehicula, sollicitudin neque ut, posuere mi. Aenean vulputate in felis et molestie.</description>
+    </item>
+    
+  </channel>
+</rss>
