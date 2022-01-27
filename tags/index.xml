@@ -1,10 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on vl3k0</title>
-    <link>https://vl3k0.github.io/tags/</link>
-    <description>Recent content in Tags on vl3k0</description>
+    <title>Tags on VL3K0</title>
+    <link>https://gokarna-hugo.netlify.app/tags/</link>
+    <description>Recent content in Tags on VL3K0</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://vl3k0.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Jan 2022 20:03:37 +0800</lastBuildDate><atom:link href="https://gokarna-hugo.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git</title>
+      <link>https://gokarna-hugo.netlify.app/tags/git/</link>
+      <pubDate>Thu, 27 Jan 2022 20:03:37 +0800</pubDate>
+      
+      <guid>https://gokarna-hugo.netlify.app/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>def</title>
+      <link>https://gokarna-hugo.netlify.app/tags/def/</link>
+      <pubDate>Thu, 15 Apr 2021 23:39:49 +0530</pubDate>
+      
+      <guid>https://gokarna-hugo.netlify.app/tags/def/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xyz</title>
+      <link>https://gokarna-hugo.netlify.app/tags/xyz/</link>
+      <pubDate>Thu, 15 Apr 2021 23:39:49 +0530</pubDate>
+      
+      <guid>https://gokarna-hugo.netlify.app/tags/xyz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>https://gokarna-hugo.netlify.app/tags/css/</link>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gokarna-hugo.netlify.app/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>https://gokarna-hugo.netlify.app/tags/html/</link>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gokarna-hugo.netlify.app/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://gokarna-hugo.netlify.app/tags/markdown/</link>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gokarna-hugo.netlify.app/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -17,25 +17,25 @@
     
 
     
-    <title>404 Page not found</title>
-    <meta name="description" content="A Hugo Blog">
-    <meta name="keywords" content='blog, gokarna, hugo'>
+    <title>How to Push Project to Github</title>
+    <meta name="description" content="Guide to push Project to Github.">
+    <meta name="keywords" content='blog, gokarna, hugo, git'>
 
-    <meta property="og:url" content="https://gokarna-hugo.netlify.app/404.html">
+    <meta property="og:url" content="https://gokarna-hugo.netlify.app/posts/how-to-push-project-to-github/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="404 Page not found">
-    <meta property="og:description" content="A Hugo Blog">
+    <meta property="og:title" content="How to Push Project to Github">
+    <meta property="og:description" content="Guide to push Project to Github.">
     <meta property="og:image" content="/images/avatar.png">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="404 Page not found">
-    <meta name="twitter:description" content="A Hugo Blog">
-    <meta property="twitter:domain" content="https://gokarna-hugo.netlify.app/404.html">
-    <meta property="twitter:url" content="https://gokarna-hugo.netlify.app/404.html">
+    <meta name="twitter:title" content="How to Push Project to Github">
+    <meta name="twitter:description" content="Guide to push Project to Github.">
+    <meta property="twitter:domain" content="https://gokarna-hugo.netlify.app/posts/how-to-push-project-to-github/">
+    <meta property="twitter:url" content="https://gokarna-hugo.netlify.app/posts/how-to-push-project-to-github/">
     <meta name="twitter:image" content="/images/avatar.png">
 
     
-    <link rel="canonical" href="https://gokarna-hugo.netlify.app/404.html" />
+    <link rel="canonical" href="https://gokarna-hugo.netlify.app/posts/how-to-push-project-to-github/" />
 
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -152,23 +152,57 @@
     </nav>
 </header>
 <main id="content">
+    <div class="post container">
 
-<div class="text-404">
-  <h1 class="error-emoji"></h1>
-  <h2>
-      404 ... This page does not exist, go <a href="/">home</a>
-  </h2>
+    <div class="post-header-section">
+        <h1>How to Push Project to Github</h1>
+        <small role="doc-subtitle">Guide to push Project to Github.</small>
+        <p class="post-date">
+            January 27, 2022
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="/tags/git">git</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <h4 id="1-create-a-ssh-key">1. Create a SSH key</h4>
+<p>$ ssh-keygen <br>
+$ cd ./.ssh <br>
+$ ps -e | grep [s]sh-agent <br>
+$ cd .. <br>
+$ ssh-add ~/.ssh/your_id <br>
+$ ssh-add -l <br>
+$ cat ~/.ssh/your_id.pub <br>
+then, copy the whole code</p>
+<h4 id="2-add-ssh-key-to-your-github-account">2. Add SSH key to your github Account</h4>
+<p>Open Settings &gt; SSH and GPG Keys</p>
+<h4 id="3-test-the-connectivity">3. Test the connectivity</h4>
+<p>ssh -T <a href="mailto:git@github.com">git@github.com</a></p>
+<h4 id="4-clone-one-of-your-github-repository">4. Clone one of your Github Repository</h4>
+<p>Make sure to use SSH when clone. For example : <br>
+$ git clone <a href="mailto:git@github.com">git@github.com</a>:vl3k0/vl3k0.github.io.git</p>
+<h4 id="5-push-your-local-repository-to-github">5. Push your Local Repository to Github</h4>
+<p>$ cd ./your-local-repository <br>
+$ git init <br>
+$ git remote add origin <a href="mailto:git@github.com">git@github.com</a>/username/repository <br>
+$ git add . <br>
+$ git commit -m &ldquo;Your Commit Text&rdquo; <br>
+$ git pull <a href="mailto:git@github.com">git@github.com</a>/username/repository <br>
+$ git pull origin master <br>
+$ git push -u origin master &ndash;force</p>
+
+        </p>
+    </div>
 </div>
-<script>
-  const errorEmojiContainer = document.getElementsByClassName('error-emoji')[0];
-  const emojiArray = [
-    '\\(o_o)/', '(o^^)o', '(˚Δ˚)b', '(^-^*)', '(≥o≤)', '(^_^)b', '(·_·)',
-    '(=\'X\'=)', '(>_<)', '(;-;)', '\\(^Д^)/',
-  ];
-  const errorEmoji = emojiArray[Math.floor(Math.random() * emojiArray.length)];
-  errorEmojiContainer.appendChild(document.createTextNode(errorEmoji));
-</script>
 
+
+
+    
 
         </main><footer class="footer">
     <span>&copy; 2022 VL3K0</span>
